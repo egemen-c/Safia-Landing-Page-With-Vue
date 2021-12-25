@@ -1,0 +1,177 @@
+    /* Fonts */
+    @import url('https://fonts.googleapis.com/css2?family=Sora&display=swap');
+
+
+
+    :root {
+        /* Blue Palette */
+        --blue-900: #001A57;
+        --blue-800: #00308F;
+        --blue-600: #0059F7;
+        --blue-300: #689EFF;
+        --blue-100: rgba(0, 89, 247, 0.16);
+
+
+        /* NEUTRAL PALETTE */
+        --gray-900: #070E27;
+        --gray-800: #081131;
+        --gray-700: #162044;
+        --gray-600: #4E5A85;
+        --gray-500: #7E8BB6;
+        --gray-300: #CCD2E9;
+        --gray-200: #F4F7FF;
+        --deneme: #999;
+
+        /* Typography */
+        --general-font: 'Sora', sans-serif;
+        --text-color: #141629;
+    }
+
+
+
+
+
+    .head-large {
+
+        font-family: var(--general-font);
+        color: var(--text-color);
+        font-style: normal;
+        font-weight: 600;
+        font-size: 18px;
+        line-height: 32px;
+        letter-spacing: -0.02em;
+    }
+
+    .head-default {
+        font-family: var(--general-font);
+        color: var(--text-color);
+        font-style: normal;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 24px;
+        letter-spacing: -0.02em;
+    }
+
+    .sup-large {
+        font-family: var(--general-font);
+        color: var(--text-color);
+        font-style: normal;
+        font-weight: 500;
+        font-size: 20px;
+        line-height: 32px;
+        letter-spacing: 0.02em;
+        text-transform: uppercase;
+    }
+
+    .sup-default {
+        font-family: var(--general-font);
+        color: var(--text-color);
+        font-style: normal;
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 16px;
+        letter-spacing: 0.03em;
+        text-transform: uppercase;
+    }
+
+    .body-large {
+        font-family: var(--general-font);
+        color: var(--gray-500);
+        font-style: normal;
+        font-weight: normal;
+        font-size: 20px;
+        line-height: 32px;
+        letter-spacing: -0.02em;
+    }
+
+    .body-default {
+        font-family: var(--general-font);
+        color: var(--text-color);
+        font-style: normal;
+        font-weight: normal;
+        font-size: 16px;
+        line-height: 24px;
+        letter-spacing: -0.01em;
+    }
+
+    .body-small {
+        font-family: var(--general-font);
+        color: var(--text-color);
+        font-style: normal;
+        font-weight: normal;
+        font-size: 14px;
+        line-height: 24px;
+    }
+
+    .caption {
+        font-family: var(--general-font);
+        color: var(--text-color);
+        font-style: normal;
+        font-weight: 500;
+        font-size: 12px;
+        line-height: 16px;
+        letter-spacing: 0.02em;
+    }
+
+    .hero-title {
+        font-family: var(--general-font);
+        color: white;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 64px;
+        line-height: 80px;
+        letter-spacing: -0.03em;
+    }
+
+    .h1-title {
+        font-family: var(--general-font);
+        color: var(--text-color);
+        font-style: normal;
+        font-weight: 600;
+        font-size: 56px;
+        line-height: 64px;
+        letter-spacing: -0.04em
+    }
+
+    .h2-title {
+        font-family: var(--general-font);
+        color: white;
+        font-weight: 600;
+        font-size: 48px;
+        line-height: 64px;
+        letter-spacing: -0.03em;
+    }
+
+    .h3-title {
+        font-family: var(--general-font);
+        color: var(--text-color);
+        font-weight: 600;
+        font-size: 36px;
+        line-height: 40px;
+        letter-spacing: -0.03em;
+    }
+
+    .h4-title {
+        font-family: var(--general-font);
+        color: var(--text-color);
+        font-weight: 600;
+        font-size: 24px;
+        line-height: 32px;
+        letter-spacing: -0.02em;
+    }
+
+    .h5-title {
+        font-family: var(--general-font);
+        color: var(--text-color);
+        font-weight: 600;
+        font-size: 18px;
+        line-height: 28px;
+        letter-spacing: -0.02em;
+    }
+
+    .button {
+        color: #fff;
+        padding: 16px 24px;
+        border: none;
+        border-radius: 8px;
+    }
