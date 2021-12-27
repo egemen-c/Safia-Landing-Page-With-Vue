@@ -52,9 +52,10 @@
         letter-spacing: -0.02em;
     }
 
-    .sup-large {
+    .sub-large {
         font-family: var(--general-font);
-        color: var(--text-color);
+        color: rgba(255, 255, 255, 0.5);
+        opacity: 0.5;
         font-style: normal;
         font-weight: 500;
         font-size: 20px;
@@ -86,7 +87,7 @@
 
     .body-default {
         font-family: var(--general-font);
-        color: var(--text-color);
+        color: var(--gray-300);
         font-style: normal;
         font-weight: normal;
         font-size: 16px;
@@ -125,7 +126,7 @@
 
     .h1-title {
         font-family: var(--general-font);
-        color: var(--text-color);
+        color: var(--gray-200);
         font-style: normal;
         font-weight: 600;
         font-size: 56px;
@@ -144,7 +145,7 @@
 
     .h3-title {
         font-family: var(--general-font);
-        color: var(--text-color);
+        color: white;
         font-weight: 600;
         font-size: 36px;
         line-height: 40px;
@@ -153,7 +154,7 @@
 
     .h4-title {
         font-family: var(--general-font);
-        color: var(--text-color);
+        color: white;
         font-weight: 600;
         font-size: 24px;
         line-height: 32px;
@@ -174,4 +175,8 @@
         padding: 16px 24px;
         border: none;
         border-radius: 8px;
+    }
+
+    .bottom-border{
+        border-bottom: 0.5px solid rgba(78, 90, 133, 0.3);
     }

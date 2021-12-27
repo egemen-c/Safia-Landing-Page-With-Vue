@@ -16,6 +16,7 @@
         display: grid;
         grid-template-columns: repeat(2, 1fr);
         gap: 20rem;
+        margin-top:100px;
     }
 
     .body-large {
